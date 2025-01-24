@@ -15,3 +15,12 @@
     height: 100%;
     border: 0;
 }
+#main {
+    margin: 0 15%;
+}
+
+@media (max-width: 668px) {
+    #main {
+        margin: 0;
+    }
+}
