@@ -1,15 +1,18 @@
-.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+
+.imgCarrosel{
+    height: 40%;
+    width: 100%;
+}
+.texto_carrosel{
     display: flex;
-    justify-content: center;
-}
-.w-100{
-    width: 80%!important;
-}
-.carousel-control-next-icon {
-    filter: drop-shadow(0px 0px 1px black);
-}
-.carousel-control-prev-icon{
-    filter: drop-shadow(0px 0px 1px black);
+    z-index: 1;
+    position: absolute;
+    color: aliceblue;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -123px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 /* link paras os videos */
 .card{
@@ -20,7 +23,25 @@
 .card-img-top{
     max-width: 100%;
 }
+#img_Quadrado{
+    height: 30vh;
+}
 #links{
     display: flex;
     justify-content: space-around;
+}
+
+/* proporsão de no */
+@media(max-width: 638px){
+    #links{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .card{
+        width: 84%;
+    }
+    .texto-02_carrosel{
+        font-size: revert-layer;
+    }
 }
