@@ -23,9 +23,7 @@
 .card-img-top{
     max-width: 100%;
 }
-#img_Quadrado{
-    height: 30vh;
-}
+
 #links{
     display: flex;
     justify-content: space-around;
