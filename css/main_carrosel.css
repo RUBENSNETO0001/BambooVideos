@@ -28,7 +28,22 @@
     display: flex;
     justify-content: space-around;
 }
-
+.btn-primary{
+    background-color: aliceblue;
+    color: blue;
+}
+.btn-primary:hover{
+    background-color: rgb(160, 160, 160);
+    color: rgb(0, 0, 255);
+}
+.btn-primary:active{
+    background-color: rgb(194, 194, 194);
+    color: rgb(0, 0, 255);
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color: rgb(194, 194, 194);
+    color: rgb(0, 0, 255);
+}
 /* proporsão de no */
 @media(max-width: 638px){
     #links{
