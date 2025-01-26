@@ -47,9 +47,8 @@
 /* proporsão de no */
 @media(max-width: 638px){
     #links{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+        display: grid;
+        justify-items: center;
     }
     .card{
         width: 84%;
