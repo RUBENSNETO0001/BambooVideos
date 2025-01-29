@@ -19,6 +19,7 @@
     box-shadow: 0px 0px 1px 1px black;
     margin-top: 20px;
     width: 25%;
+    margin-bottom: 28px;
 }
 .card-img-top{
     max-width: 100%;
@@ -56,4 +57,19 @@
     .texto-02_carrosel{
         font-size: revert-layer;
     }
+}
+.hrDivisor{
+    height: 50px;
+    width: 100%;
+    background-color: #ff0000;
+    margin-top: auto;
+}
+.music_text{
+    font-size: xx-large;
+    border-bottom: 6px solid black;
+}
+.text_music{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
