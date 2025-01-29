@@ -77,6 +77,7 @@
 .music_text{
     font-size: xx-large;
     border-bottom: 6px solid black;
+    transition: 1s;
 }
 .text_music{
     display: flex;
