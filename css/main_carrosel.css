@@ -8,6 +8,7 @@
 .imgCarrosel{
     height: 40%;
     width: 100%;
+    box-shadow: 0px -5px 100px 0px black;
 }
 .texto_carrosel{
     display: flex;
@@ -81,4 +82,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.music_text:hover{
+    border-bottom: 6px solid rgb(255, 0, 0);
+    color: #ff0000;
+}
+.music_text:active{
+    border-radius: 12px;
+    border-bottom: 6px solid rgb(255, 0, 0);
+    border-left: 3px solid rgb(255, 0, 0);
+    border-right: 3px solid rgb(255, 0, 0);
+    color: #6b0000;
 }
