@@ -1,4 +1,10 @@
-
+@font-face{
+    font-family: 'firaSans';
+    src:url('../assents/font/Fira_Sans/FiraSans-ExtraLight.ttf');
+}
+*{
+    font-family: 'firaSans';
+}
 .imgCarrosel{
     height: 40%;
     width: 100%;
