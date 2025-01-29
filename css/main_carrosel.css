@@ -57,6 +57,9 @@
     .texto-02_carrosel{
         font-size: revert-layer;
     }
+    #img_Quadrado{
+        width: 1134px;
+    }
 }
 .hrDivisor{
     height: 50px;
